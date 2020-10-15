@@ -1,4 +1,4 @@
-import { MarcaCarro } from './marcaCarro';
+import { MarcaCarro } from '../models/MarcaCarro';
 
 export class Seguro{
   id: string;
