@@ -2,7 +2,7 @@ runtime: nodejs12
 
 
 handlers:
-- url: /(.*\.(css|js|gif|png|jpg|jpeg|json|webmanifest))$
+- url: /(.*\.(css|js|gif|png|jpg|jpeg|json|ico|config|text|webmanifest))$
   static_files: dist/curso-pwa-angular/\1
   upload: dist/curso-pwa-angular/(.*)
 
