@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { MarcaCarro } from 'src/app/models/marcaCarro';
-import { Seguro } from 'src/app/models/Seguro';
-import { MarcaCarroService } from 'src/app/services/marca-carro.service';
-import { SeguroService } from 'src/app/services/seguro.service';
+import { MarcaCarro } from '../../models/MarcaCarro';
+import { Seguro } from '../../models/Seguro';
+import { MarcaCarroService } from '../../services/marca-carro.service';
+import { SeguroService } from '../../services/seguro.service';
 
 @Component({
   selector: 'app-cadastro-seguro',
