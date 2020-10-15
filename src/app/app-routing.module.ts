@@ -6,7 +6,6 @@ import { ListarSegurosComponent } from './components/listar-seguros/listar-segur
 
 const routes: Routes = [
   {path: '', component: CadastroSeguroComponent},
-  {path: 'cadastro', component: CadastroSeguroComponent},
   {path: 'listar', component: ListarSegurosComponent},
 
   // {path: '', pathMatch: 'full', redirectTo: 'cadastro'},
