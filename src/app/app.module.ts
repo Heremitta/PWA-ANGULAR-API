@@ -24,7 +24,7 @@ import { FormsModule } from '@angular/forms';
     FormsModule,
     HttpClientModule,
     HttpClientJsonpModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production, registrationStrategy: 'registerImmediately' })
   ],
   providers: [],
   bootstrap: [AppComponent]
